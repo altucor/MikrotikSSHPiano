@@ -34,5 +34,5 @@ Keyboard markdown same as in FL Studio. In FL you can use it, when you turn on f
 		| +----------------------------------+      +-+-+         +-+-+            |
 		|                                                                          |
 		|                                         Octave Up    Octave Down         |
-		|                                                                          |\n"
+		|                                                                          |
 		+--------------------------------------------------------------------------+
