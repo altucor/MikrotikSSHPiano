@@ -30,7 +30,7 @@ Keyboard markdown same as in FL Studio. In FL you can use it, when you turn on f
 		+--------------------------------------------------------------------------+
 		|                                                                          |
 		| +----------------------------------+      +-+-+ Current +-+-+            |
-		| |               Exit               |      | + |    %d    | - |            |
+		| |               Exit               |      | + |    4    | - |            |
 		| +----------------------------------+      +-+-+         +-+-+            |
 		|                                                                          |
 		|                                         Octave Up    Octave Down         |
