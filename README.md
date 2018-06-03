@@ -9,7 +9,7 @@ That project uses libssh for windows. So you need dll's from libssh. Precompiled
 * First argument - username
 * Second argument - router ip
 * Third - ssh port on router
-* Example: MikrotikSSHPiano.exe admin 192.168.0.1 22 
+* Example: **MikrotikSSHPiano.exe admin 192.168.0.1 22** 
 
 ## Keyboard markdown
 Keyboard markdown same as in FL Studio. In FL you can use it, when you turn on feature "Typing keyboard to piano keyboard".
