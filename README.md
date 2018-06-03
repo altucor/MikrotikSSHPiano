@@ -9,4 +9,4 @@ That project uses libssh for windows. Precompiled dll's available in Debug folde
 * First argument - username
 * Second argument - router ip
 * Third - ssh port on router
-Example: MikrotikSSHPiano.exe admin 192.168.0.1 22 
+* Example: MikrotikSSHPiano.exe admin 192.168.0.1 22 
