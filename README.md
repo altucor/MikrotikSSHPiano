@@ -13,6 +13,7 @@ That project uses libssh for windows. So you need dll's from libssh. Precompiled
 
 ## Keyboard markdown
 Keyboard markdown same as in FL Studio. In FL you can use it, when you turn on feature "Typing keyboard to piano keyboard".
+http://flstudio.image-line.com/help/html/img_glob/qwerty_keyboard.jpg
 
 		+--------------------------------------------------------------------------+
 		|  Octave N+1                                                              |
