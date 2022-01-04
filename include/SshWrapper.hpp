@@ -1,26 +1,24 @@
-#pragma once
+#ifndef SSH_WRAPPER_HPP
+#define SSH_WRAPPER_HPP
 
-#include <libssh/libssh.h>
+#include "libssh2.h"
 
 class SshWrapper
 {
 public:
-	explicit SshWrapper(std::string &user, std::string &ip, unsigned int port = 22);
+	explicit SshWrapper(std::string &user, std::string &ip, uint16_t port = 22);
 	~SshWrapper();
 	void playNote(float freq, float length);
 
 private:
 	std::string m_user = "";
 	std::string m_ip = "";
-	int m_port = 22;
-	ssh_session m_session;
-
+	uint16_t m_port = 22;
+	LIBSSH2_SESSION *m_session;
 
 private:
 	std::string m_getpass(const char *prompt, bool show_asterisk = true);
 	int m_runCmd(std::string &cmd);
-
-	int initialize();
-	void makeSession();
 };
 
+#endif // SSH_WRAPPER_HPP

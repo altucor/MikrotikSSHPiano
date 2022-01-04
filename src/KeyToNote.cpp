@@ -1,4 +1,4 @@
-#include "KeyToNote.h"
+#include "KeyToNote.hpp"
 
 #include <iostream>
 #include <string>

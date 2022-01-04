@@ -1,4 +1,6 @@
-#pragma once
+#ifndef KEY_TO_NOTE_HPP
+#define KEY_TO_NOTE_HPP
+
 class KeyToNote
 {
 public:
@@ -13,3 +15,4 @@ private:
 	int m_octave = 5;
 };
 
+#endif // KEY_TO_NOTE_HPP
